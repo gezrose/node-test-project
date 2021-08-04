@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send("Welcome to the home page Justyna on EB version deploy approval!");
+    res.send("Welcome to the home page Justyna on EB version deploy approval again!");
 });
 
 const port = process.env.port || 3000;
